@@ -8,3 +8,4 @@ These components are specifically for converting a Dell OS10 switch to SONiC, bu
 2. A scipt that connects to an OS10 switch and ONIE uninstalls the OS, preparing it for installation of a new NOS.
 3. A docker compose yml file for loading optionally: a DHCP and/or HTTP server that are used for the switch boot and image transfer process.
 4. A script for checking on the status of the installations
+5. A simple ansible playbook example for checking the SONiC version
